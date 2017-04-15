@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -euxo pipefail
+
+brew bundle
+PATH="$(pwd)":$PATH
+brew bundle exec build_inner

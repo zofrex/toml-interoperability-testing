@@ -1,0 +1,4 @@
+brew 'icu4c'
+brew 'ragel'
+brew 'cunit'
+brew 'cmake'
