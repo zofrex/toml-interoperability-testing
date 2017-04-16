@@ -4,3 +4,6 @@
 [submodule "C-cktan-tomlc99/tomlc99"]
 	path = C-cktan-tomlc99/tomlc99
 	url = https://github.com/cktan/tomlc99.git
+[submodule "toml-test"]
+	path = toml-test
+	url = git@github.com:zofrex/toml-test.git
