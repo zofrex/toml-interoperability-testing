@@ -1,0 +1,6 @@
+- name: libtoml
+  dir: C-ajwans-libtoml
+  exe: libtoml/parser_test
+- name: tomlc99
+  dir: C-cktan-tomlc99
+  exe: tomlc99/toml_json
