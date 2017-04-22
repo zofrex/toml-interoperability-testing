@@ -1,9 +1,12 @@
 [submodule "subjects/C-ajwans-libtoml/libtoml"]
 	path = subjects/C-ajwans-libtoml/libtoml
 	url = https://github.com/ajwans/libtoml
+	ignore = dirty
 [submodule "subjects/C-cktan-tomlc99/tomlc99"]
 	path = subjects/C-cktan-tomlc99/tomlc99
 	url = https://github.com/cktan/tomlc99.git
+	ignore = dirty
 [submodule "toml-test"]
 	path = toml-test
 	url = git@github.com:zofrex/toml-test.git
+	ignore = dirty
