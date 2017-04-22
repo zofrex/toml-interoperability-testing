@@ -4,3 +4,6 @@
 - name: tomlc99
   dir: C-cktan-tomlc99
   exe: tomlc99/toml_json
+- name: cpptoml
+  dir: C++-skystrife-cpptoml
+  exe: cpptoml/cpptoml-parser

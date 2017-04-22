@@ -10,3 +10,7 @@
 	path = toml-test
 	url = git@github.com:zofrex/toml-test.git
 	ignore = dirty
+[submodule "subjects/C++-skystrife-cpptoml/cpptoml"]
+	path = subjects/C++-skystrife-cpptoml/cpptoml
+	url = https://github.com/skystrife/cpptoml.git
+	ignore = dirty
