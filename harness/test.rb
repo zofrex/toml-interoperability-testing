@@ -50,14 +50,27 @@ subjects.each do |subject|
       puts "Passed: #{result[:tests_passed]} Failed: #{result[:tests_failed]} (Errored: #{result[:tests_errored]})"
       puts
 
+      test_results.select{|r| !r[:passed]}.each do |failed|
+        puts "Failed: #{failed[:name]}"
+        if failed[:errored]
+          puts "Error occurred while running test"
+        else
+          puts "Details:"
+          puts failed[:details]
+        end
+        puts
+      end
+
       result[:tests] = test_results
       result[:error] = false
     rescue JSON::ParserError => e
+      puts "Error: Failed to parse json: #{e}"
       result[:error] = true
       result[:error_type] = :json_parse
       result[:error_details] = e
     end
   else
+    puts "Error: toml-test failed (status code: #{status})"
     result[:error] = true
     result[:error_type] = :status_code
     result[:error_details] = status
