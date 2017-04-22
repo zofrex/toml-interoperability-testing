@@ -5,7 +5,7 @@ compile-all: compile toml-test/toml-test
 
 compile-tester: toml-test/toml-test
 
-toml-test/toml-test:
+toml-test/toml-test: toml-test/*.go
 	cd toml-test && \
 	go build
 
