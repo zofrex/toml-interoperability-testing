@@ -54,10 +54,9 @@ subjects.each do |subject|
         puts "Failed: #{failed[:name]}"
         if failed[:errored]
           puts "Error occurred while running test"
-        else
-          puts "Details:"
-          puts failed[:details]
         end
+        puts "Details:"
+        puts failed[:details]
         puts
       end
 
