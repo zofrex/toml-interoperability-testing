@@ -14,3 +14,6 @@
 	path = subjects/C++-skystrife-cpptoml/cpptoml
 	url = https://github.com/skystrife/cpptoml.git
 	ignore = dirty
+[submodule "subjects/C#-paiden-Nett/Nett"]
+	path = "subjects/C#-paiden-Nett/Nett"
+	url = https://github.com/paiden/Nett.git

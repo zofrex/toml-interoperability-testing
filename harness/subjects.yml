@@ -7,3 +7,6 @@
 - name: cpptoml
   dir: C++-skystrife-cpptoml
   exe: cpptoml/cpptoml-parser
+- name: Nett
+  dir: C#-paiden-Nett
+  exe: wrapper

@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+mono $(dirname $0)/Nett/Test/Nett.TestDecoder/bin/Debug/Nett.TestDecoder.exe
