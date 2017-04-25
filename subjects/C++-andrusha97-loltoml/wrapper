@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+DYLD_LIBRARY_PATH=$(dirname $0)/prefix/lib $(dirname $0)/loltoml/examples/toml-test-decoder

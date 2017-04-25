@@ -17,3 +17,11 @@
 [submodule "subjects/C#-paiden-Nett/Nett"]
 	path = "subjects/C#-paiden-Nett/Nett"
 	url = https://github.com/paiden/Nett.git
+[submodule "subjects/C++-andrusha97-loltoml/util"]
+	path = subjects/C++-andrusha97-loltoml/util
+	url = https://github.com/leonidia/util.git
+	ignore = dirty
+[submodule "subjects/C++-andrusha97-loltoml/loltoml"]
+	path = subjects/C++-andrusha97-loltoml/loltoml
+	url = https://github.com/andrusha97/loltoml.git
+	ignore = dirty

@@ -10,3 +10,6 @@
 - name: Nett
   dir: C#-paiden-Nett
   exe: wrapper
+- name: loltoml
+  dir: C++-andrusha97-loltoml
+  exe: wrapper
