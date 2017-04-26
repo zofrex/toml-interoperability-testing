@@ -6,10 +6,9 @@
 	path = subjects/C-cktan-tomlc99/tomlc99
 	url = https://github.com/cktan/tomlc99.git
 	ignore = dirty
-[submodule "toml-test"]
-	path = toml-test
+[submodule ".gopath/src/github.com/BurntSushi/toml-test"]
+	path = .gopath/src/github.com/BurntSushi/toml-test
 	url = git@github.com:zofrex/toml-test.git
-	ignore = dirty
 [submodule "subjects/C++-skystrife-cpptoml/cpptoml"]
 	path = subjects/C++-skystrife-cpptoml/cpptoml
 	url = https://github.com/skystrife/cpptoml.git

@@ -8,7 +8,7 @@ results = {}
 
 subjects.each do |subject|
   puts "Testing #{subject["name"]}:"
-  stdout, stderr, status = Open3.capture3("../toml-test/toml-test -all -json ../subjects/#{subject["dir"]}/#{subject["exe"]}")
+  stdout, stderr, status = Open3.capture3("../run-tester -all -json ../subjects/#{subject["dir"]}/#{subject["exe"]}")
 
   result = {
     stderr: stderr

@@ -1,19 +1,20 @@
 SUBDIRS := $(wildcard subjects/*/.)
 TARGETS := compile clean
 
-compile-all: compile toml-test/toml-test
+compile-all: compile compile-tester
 
-compile-tester: toml-test/toml-test
-
-toml-test/toml-test: toml-test/*.go
-	cd toml-test && \
-	go build
+compile-tester:
+	export GOPATH=$$(pwd)/.gopath && \
+	go get github.com/BurntSushi/toml-test && \
+	go install github.com/BurntSushi/toml-test
 
 clean-all: clean clean-tester
 
 clean-tester:
 	cd toml-test && \
 	git clean -xdf
+	rm -rf .gopath/pkg/*/github.com/BurntSushi
+	rm -rf .gopath/bin/toml-test
 
 SUBDIRS_TARGETS := $(foreach t,$(TARGETS),$(addsuffix $t,$(SUBDIRS)))
 
