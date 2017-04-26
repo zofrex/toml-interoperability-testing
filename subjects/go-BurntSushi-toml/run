@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+export GOPATH=$(cd $(dirname $0)/../../.gopath && pwd)
+$GOPATH/bin/toml-test-decoder "$@"

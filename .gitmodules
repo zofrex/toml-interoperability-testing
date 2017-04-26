@@ -27,3 +27,6 @@
 [submodule ".gopath/src/github.com/pelletier/go-toml"]
 	path = .gopath/src/github.com/pelletier/go-toml
 	url = https://github.com/pelletier/go-toml.git
+[submodule ".gopath/src/github.com/BurntSushi/toml"]
+	path = .gopath/src/github.com/BurntSushi/toml
+	url = https://github.com/BurntSushi/toml.git

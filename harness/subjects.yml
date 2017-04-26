@@ -16,3 +16,6 @@
 - name: go-toml
   dir: go-pelletier-go-toml
   exe: test_program
+- name: burntsushi-toml
+  dir: go-BurntSushi-toml
+  exe: run
