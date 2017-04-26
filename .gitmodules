@@ -24,3 +24,6 @@
 	path = subjects/C++-andrusha97-loltoml/loltoml
 	url = https://github.com/andrusha97/loltoml.git
 	ignore = dirty
+[submodule ".gopath/src/github.com/pelletier/go-toml"]
+	path = .gopath/src/github.com/pelletier/go-toml
+	url = https://github.com/pelletier/go-toml.git

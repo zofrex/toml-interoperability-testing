@@ -13,3 +13,6 @@
 - name: loltoml
   dir: C++-andrusha97-loltoml
   exe: wrapper
+- name: go-toml
+  dir: go-pelletier-go-toml
+  exe: test_program
